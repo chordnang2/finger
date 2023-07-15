@@ -3,7 +3,7 @@ const mysql = require("mysql");
 const getAndAddFinger = async (req, res) => {
   const connection = mysql.createConnection({
     connectionLimit: 10,
-    host: "mandiricoal.co.id",
+    host: "151.106.113.136",
     user: "nanang",
     password: "n4n@nGKA_DB",
     database: "hrtabang",
