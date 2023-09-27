@@ -25,7 +25,7 @@ const getAndAddFinger = async (req, res) => {
     return hasil;
   }
 
-  const IP = "192.168.8.37";
+  const IP = "192.168.8.159";
   const Key = "0";
 
   const net = require("net");
